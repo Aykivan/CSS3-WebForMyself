@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background-color: #e2e7ec;
+}
+
+.block {
+	border: 5px solid #000;
+	width: 200px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.block p{
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	/* Перенос слов без знаков переноса ^ */
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
